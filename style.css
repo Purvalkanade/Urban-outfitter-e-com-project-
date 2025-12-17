@@ -1,0 +1,678 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar-1 start */
+.navbar-1 {
+    height: 30px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ef6c64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#navbar-1-button {
+    background-color: #ef6c64;
+    color: white;
+    padding-left: 40px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+#navbar-1-button:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar-1-text {
+    font-size: 8px;
+    color: white;
+    font-size: smaller;
+}
+#navbar-1-LeftArrow-button {
+    border: none;
+    background-color: #ef6c64;
+    font-size: 25px;
+    padding-right: 200px;
+}
+#navbar-1-RightArrow-button {
+    border: none;
+    background-color: #ef6c64;
+    font-size: 25px;
+    padding-left: 200px;
+}
+/*----------------*/
+
+/* Navbar-2 Start */
+.navbar-2 {
+    height: 40px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbar-2-text {
+    padding-right: 50px;
+}
+#navbar-2-icon {
+    padding-right: 5px;
+    align-items: center;
+}
+/*----------------*/
+
+/* Navbar-3 start */
+.navbar-3 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#navbar-3-image {
+    padding-left: 4%;
+    padding-right: 850px;
+}
+.navbar-3-search-content {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+#navbar-3-search-icon {
+    padding-right: 20px;
+}
+
+#navbar-3-searchbox {
+    height: 43px;
+    width: 200px;
+    padding-left: 20px;
+    
+}
+#navbar-3-favourite-icon {
+    padding-right: 20px;
+}
+/*----------------*/
+
+/* navbar-4 start */
+.navbar-4 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 45px;
+}
+#navbar-4-text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 30px;
+}
+#navbar-4-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+/* ---------------- */
+
+/* navbar-5 start */
+.navbar-5{
+    height: 130px;
+    width: 100%;
+    padding-top: 10px;
+}
+#navbar-5-image {
+    height: 130px;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+/* ----------------*/
+
+/* navbar-6 start */
+.navbar-6{
+    min-height: auto;
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0%;
+}
+#navbar-6-image {
+    height: 680px;
+    width: 100%;  
+}
+#navbar-6-button{
+    height: 38px;
+    width: 197px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 670px;
+    position: relative;
+    bottom: 60px;    
+}
+/*----------------*/
+
+
+/* navbar-7 start */
+.navbar-7{
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% ;
+}
+#navbar-7-image {
+    height: 720px;
+    width: 490px; 
+    padding: 0%;
+}
+#navbar-7-button{
+    height: 38px;
+    width: 180px;
+    position: relative;
+    left: 160px;
+    bottom: 60px;
+}
+/* ---------------- */
+
+
+/* navbar-8 */
+.navbar-8{
+    min-height: auto;
+    width: 100%;
+    display: flex;
+}
+#navbar-8-image {
+    height: 120px;
+    width: 92%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+#navbar-8-button{
+    height: 20px;
+    width: 200px;
+    border: none;
+    background-color: white;
+    position: relative;
+    top: 80px;
+    right: 80px;
+
+}
+/* ------------------- */
+
+/* navbar-9 */
+.navbar-9{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+}
+#navbar-9-div-1 {
+    height: 500px;
+    width: 290px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar-9-div-2 {
+    height: 500px;
+    width: 290px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar-9-div-3 {
+    height: 500px;
+    width: 290px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar-9-div-4 {
+    height: 500px;
+    width: 290px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar-9-button {
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 510px;
+    right: 190px;
+    border: none;
+    background-color: white;
+}
+/* -------------------------------- */
+.navbar-10{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-10-image {
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ------------------------------- */
+
+/* navbar-11 */
+.navbar-11 {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#navbar-11-image-1 {
+    height: 725px;
+    width: 50%;
+    margin-right: 25px;
+}
+#navbar-11-image-2 {
+    height: 725px;
+    width: 50%;
+}
+#navbar-11-button {
+    height: 80px;
+    width: 200px;
+    position: relative;
+    top: 650px;
+    right: 300px;
+}
+/* ---------------------------------- */
+
+/* navbar-12 */
+.navbar-12 {
+    height: auto;
+    width: 100%;
+}
+#navbar-12-image {
+    height: 720px;
+    width: 100%;
+    margin-top: 35px;
+}
+#navbar-12-button {
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 45%;
+    bottom: 70px;
+}
+#navbar-12-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+#navbar-12-hr {
+    width: 1450px;
+}
+/* ---------------------------------- */
+
+/* navbar-13 */
+.navbar-13 {
+    height: 715px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-13-image-container {
+    height: 615px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.navbar-13-image {
+    height: 420px;
+    width: 290px;
+}
+.navbar-13-text {
+    width: 290px;
+    height: auto;
+}
+.navbar-13-button {
+    height: 40px;
+    width: 200px;
+    border: none;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    background-color: white;
+}
+.navbar-13-button-right {
+    height: 40px;
+    width: 50px;
+    border: none;
+    position: relative;
+    bottom: 340px;
+    left: 250px;
+    background-color: white;
+}
+.navbar-13-color-image {
+    /* this is height and width of the navbar-13-color-image */
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    align-content: center;
+}
+#navbar-13-color-image-id {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#navbar-13-paragraphtext {
+    height: 19px;
+    width: 49px;
+    font-size: 13px;
+    position: relative;
+    bottom: 35px;
+    left: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#navbar-13-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+#navbar-13-hr {
+    width: 1450px;
+}
+/* --------------------------------------------- */
+
+/* navbar-14 */
+.navbar-13 {
+    height: 615px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-13-image-container {
+    height: 615px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.navbar-13-image {
+    height: 420px;
+    width: 290px;
+}
+.navbar-13-text {
+    width: 290px;
+    height: auto;
+}
+.navbar-13-button {
+    height: 40px;
+    width: 200px;
+    border: none;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    background-color: white;
+}
+.navbar-13-button-right {
+    height: 40px;
+    width: 50px;
+    border: none;
+    position: relative;
+    bottom: 340px;
+    left: 250px;
+    background-color: white;
+}
+.navbar-13-color-image {
+    /* this is height and width of the navbar-13-color-image */
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    align-content: center;
+}
+#navbar-13-color-image-id {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#navbar-13-paragraphtext {
+    height: 19px;
+    width: 49px;
+    font-size: 13px;
+    position: relative;
+    bottom: 35px;
+    left: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#navbar-14-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+#navbar-14-hr {
+    width: 1450px;
+}
+/* ------------------------------------------------- */
+
+/* navbar-15 */
+.navbar-13 {
+    height: 615px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-13-image-container {
+    height: 615px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.navbar-13-image {
+    height: 420px;
+    width: 290px;
+}
+.navbar-13-text {
+    width: 290px;
+    height: auto;
+}
+.navbar-13-button {
+    height: 40px;
+    width: 200px;
+    border: none;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    background-color: white;
+}
+.navbar-13-button-right {
+    height: 40px;
+    width: 50px;
+    border: none;
+    position: relative;
+    bottom: 340px;
+    left: 250px;
+    background-color: white;
+}
+.navbar-13-color-image {
+    /* this is height and width of the navbar-13-color-image */
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    align-content: center;
+}
+#navbar-13-color-image-id {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#navbar-13-paragraphtext {
+    height: 19px;
+    width: 49px;
+    font-size: 13px;
+    position: relative;
+    bottom: 35px;
+    left: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#navbar-15-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+}
+#navbar-15-hr {
+    width: 1450px;
+}
+/* --------------------------------------------------------- */
+
+/* navbar-16 */
+.navbar-16 {
+    height: auto;
+    width: 100%;
+}
+#navbar-16-image {
+    height: 170px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------------------- */
+
+/* navbar-17 */
+.navbar-17 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: whitesmoke;
+}
+#navbar-17-div {
+    height: 250px;
+    width: 400px; 
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-17-image1 {
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    padding-top: 20px;
+}
+.navbar-17-image2 {
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+    padding-top: 20px;
+}
+.navbar-17-image3 {
+    position: relative;
+    bottom: 20px;
+    left: 140px;
+    padding-top: 20px;
+}
+#navbar-17-paragraph {
+    text-align: center;
+    align-content: center;
+    text-decoration: underline;
+}
+/* ---------------------------------------- */
+
+/* navbar-18 */
+.navbar-18 {
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly
+}
+.navbar-18-para {
+    color: grey;
+    font-size: smaller;
+    font-weight: 100;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* ------------------------------------- */
+
+/* navbar-19 */
+.navbar-19 {
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar-19-signup {
+    height: 100px;
+    width: 700px;
+    position: relative;
+    top: 40px;
+}
+.email-address {
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+}
+/* textbox and button  -----------------*/
+.text-box {
+    height: 37px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+    right: 107px;
+}
+.submit-button {
+    height: 40px;
+    width: 140px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 30px;
+    right: 107px;
+    bottom: 1px;
+}
+/* --------------------------------------- */
+.navbar-19-para {
+    text-align: start;
+    font-size: 13px;
+    color: grey;
+
+}
+.navbar-18-para2 {
+    height: auto;
+    width: auto;
+    font-size: smaller;
+    font-weight: 100;
+    color: grey;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding-bottom: 30px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* last-footer */
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: smaller;
+    background-color: pink
+}
+.top-title {
+    font-size: 14px;
+    font-weight: bold;
+
+}

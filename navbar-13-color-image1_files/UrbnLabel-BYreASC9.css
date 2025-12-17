@@ -1,0 +1,1 @@
+.c-pwa-label{display:block;margin-bottom:5px;font:var(--font-body-bold) 1.2rem/1.4 var(--font-body);letter-spacing:.05rem;color:var(--text-dark)}.c-pwa-label.is-required:after{content:"*"}.s-pwa-returns-item-quantity .c-pwa-label,.s-pwa-cart-item-quantity .c-pwa-label{position:absolute;overflow:hidden;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0 0 0 0)}
